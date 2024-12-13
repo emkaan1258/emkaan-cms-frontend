@@ -4,9 +4,10 @@ module.exports = {
     script: 'npx serve -s build --no-clipboard --single --listen 3000',
     instances: 1,
     exec_mode: 'fork',
-    max_memory_restart: '400M', // Restart if memory exceeds 400MB
+    max_memory_restart: '200M', // Reduced from 400M to 200M
     env_production: {
       NODE_ENV: 'production'
-    }
+    },
+    node_args: '--max-old-space-size=256' // Limiting Node.js memory
   }]
 }
