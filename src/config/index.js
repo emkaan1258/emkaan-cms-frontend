@@ -1,6 +1,6 @@
 const config = {
   apiUrl: "https://cms.emkaan.sa/api", 
-  websiteName: 'Emkaan CMS',
+  websiteName: 'Emkan CMS',
   fileUploadSizeLimit: parseInt('5242880', 10),
   
   // Derived configs
