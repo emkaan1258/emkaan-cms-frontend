@@ -9,6 +9,7 @@ import SectionEditor from './components/sections/SectionEditor';
 import Login from './components/auth/Login';
 import PrivateRoute from './components/auth/PrivateRoute';
 
+
 const theme = createTheme({
   palette: {
     primary: {
