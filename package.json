@@ -26,9 +26,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "cross-env NODE_ENV=production NODE_OPTIONS=--max-old-space-size=4096 react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build": "node --max-old-space-size=256 ./node_modules/.bin/react-scripts build",
+    "preview": "node --max-old-space-size=256 ./node_modules/.bin/serve -s build --no-clipboard --single --listen 3000"  
   },
   "eslintConfig": {
     "extends": [
@@ -47,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
   }
 }
