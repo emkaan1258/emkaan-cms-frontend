@@ -51,18 +51,20 @@ const Layout = () => {
         <img src="/logo.png" alt="CMS Logo" style={{ width: '85%', height: 'auto' }} />
       </Box>
       <List>
-        <ListItem button onClick={() => navigate('/')} sx={{ mb: 1 }}>
+        <p>Dashboard</p>
+        {/* <ListItem button onClick={() => navigate('/')} sx={{ mb: 1 }}>
           <ListItemIcon>
             <DashboardIcon color="primary" />
           </ListItemIcon>
           <ListItemText primary="Dashboard" />
-        </ListItem>
-        <ListItem button onClick={() => navigate('/pages')} sx={{ mb: 1 }}>
+        </ListItem> */}
+         <p>Pages</p>
+        {/* <ListItem button onClick={() => navigate('/pages')} sx={{ mb: 1 }}>
           <ListItemIcon>
             <PagesIcon color="primary" />
           </ListItemIcon>
           <ListItemText primary="Pages" />
-        </ListItem>
+        </ListItem> */}
          
       </List>
     </Box>
@@ -164,7 +166,7 @@ const Layout = () => {
           mt: '64px',
         }}
       >
-        <Outlet />
+        {/* <Outlet /> */}
       </Box>
     </Box>
   );
