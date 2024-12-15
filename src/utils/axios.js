@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: "https://cms.emkaan.sa/api"
+    baseURL: "https://clownfish-app-qdb99.ondigitalocean.app/api"
 });
 
 // Request interceptor

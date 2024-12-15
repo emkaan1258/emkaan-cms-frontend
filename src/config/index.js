@@ -1,5 +1,5 @@
 const config = {
-  apiUrl: "https://cms.emkaan.sa/api", 
+  apiUrl: "https://clownfish-app-qdb99.ondigitalocean.app/api", 
   websiteName: 'Emkan CMS',
   fileUploadSizeLimit: parseInt('5242880', 10),
   
